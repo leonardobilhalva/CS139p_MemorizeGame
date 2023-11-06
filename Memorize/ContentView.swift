@@ -21,10 +21,11 @@ struct ContentView: View {
                         }
                 }
             }
-        }.foregroundColor(.red)
-                .padding(.horizontal)
-                       }
-                       }
+        }
+        .foregroundColor(.red)
+        .padding(.horizontal)
+    }
+}
 
 struct CardView: View{
     let card: MemoryGame<String>.Card
@@ -44,5 +45,5 @@ struct CardView: View{
         }
     }
 }
-                       
-                    
+
+
