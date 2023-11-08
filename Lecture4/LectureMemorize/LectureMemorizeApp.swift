@@ -1,8 +1,8 @@
 //
-//  MemorizeApp.swift
-//  Memorize
+//  LectureMemorizeApp.swift
+//  LectureMemorize
 //
-//  Created by Leonardo on 06/11/23.
+//  Created by sun on 2021/09/21.
 //
 
 import SwiftUI
