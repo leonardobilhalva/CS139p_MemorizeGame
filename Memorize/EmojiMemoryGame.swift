@@ -19,7 +19,7 @@ class EmojiMemoryGame: ObservableObject {
     @Published private var model: MemoryGame<String> = createMemoryGame()
     
     var cards: Array<MemoryGame<String>.Card> {
-    model.cards
+    return model.cards
     }
     
     func choose(_ card: MemoryGame<String>.Card) {
